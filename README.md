@@ -1,35 +1,23 @@
-# New Capsule
+## Bixby - Movies Capsule
 
-Welcome to your New Capsule!
+### Results:
 
-## Creating your Capsule
+**1. You can make queries for movies by telling Bixby a particular person involved in it.**
 
-Learn about creating your capsule by following the [Quick Start Guide](https://bixbydevelopers.com/dev/docs/get-started/quick-start)
+![Director_Query] (/screenshots/Director_Query_1.png)
 
-## Submitting Your Capsule to the Marketplace
+**2. If there is any confusion regarding the person, Bixby will prompt you to select one of the choices. Once you choose the desired option, you get the required results.**
 
-Learn about submitting your capsule to the [Marketplace](https://bixbydevelopers.com/dev/docs/dev-guide/developers/deploying.can-submission#about-the-marketplace)
+![Person_Disambiguation](/screenshots/Person_Disambiguation.png)
 
----
+![Director_Query_2](/screenshots/Director_Query_2.png)
 
-## Additional Resources
+**3. Instead of the director, you can provide actor or actress as well.**
 
-### Your Source for Everything Bixby
+![Actor](/screenshots/Actor_Query.png)
 
-* [Bixby Developer Center](https://bixbydevelopers.com) - Everything you need to get started with Bixby Development!
+**4. You can directly target a particular movie as well.**
 
-### Guides & Best Practices
+![Que_1](/screenshots/Question_1.png)
 
-* [Quick Start Guide](https://bixbydevelopers.com/dev/docs/get-started/quick-start) - Build your first capsule
-* [Design Guides](https://bixbydevelopers.com/dev/docs/dev-guide/design-guides) - Best practices for designing your capsules
-* [Developer Guides](https://bixbydevelopers.com/dev/docs/dev-guide/developers) - Guides that take you from design and modeling all the way through deployment of your capsules
-
-### Video Guides
-
-* [Introduction to Bixby](https://youtu.be/DFvpK4PosvI) - Bixby and the New Exponential Frontier of Intelligent Assistants
-* [Bixby Fundamentals](https://bixby.developer.samsung.com/newsroom/en-us/22/01/2019/Teaching-Bixby-Fundamentals-What-You-Need-to-Know) - Bixby Fundamentals: What You Need to Know
-
-### Need Support?
-
-* Have a feature request? Please suggest it in our [Support Community](https://support.bixbydevelopers.com/hc/en-us/community/topics/360000183273-Feature-Requests) to help us prioritize.
-* Have a technical question? Ask on [Stack Overflow](https://stackoverflow.com/questions/tagged/bixby) with tag “bixby”
+![Que_2](/screenshots/Question_2.png)
