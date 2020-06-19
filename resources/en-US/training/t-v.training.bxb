@@ -1,0 +1,10 @@
+train (t-v6hh2eepuul8a2hum53t78nfu) {
+  utterance ("[g:DiscoverMovies] Find movies directed by (Christopher Nolan)[v:SearchTerm]")
+  plan (Y2BmEC/ISaxML8ovzUvRy80vy0wt1vMFUQwKmBIumcXJ+WWpRWAFxQwymCqCUxOLkjNCUotyGZgYGIGYAUgyMoAAlA8A)
+  last-modified (1592563167621)
+}
+train (t-v7xpf1yq5fdcgjht7f4egqppm) {
+  utterance ("[g:SearchMovie] In which year, was the movie (Veer Zaara)[v:SearchTerm] released")
+  plan (Y2BmEC/ISaxML8ovzUvRy80vy0wt1vMFUQyymBLBqYlFyRkQaRlc0iGpRbkMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1592563423772)
+}

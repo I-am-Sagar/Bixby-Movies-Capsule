@@ -1,0 +1,5 @@
+train (t-clbmt39c1zmr1m1v3vb7w3de6) {
+  utterance ("[g:playground.movies.DiscoverMovies] Search (thriller)[v:Genre:thriller] movies.")
+  plan (Y2BmEC/ISaxML8ovzUvRy80vy0wt1vMFUQwKmBIumcXJ+WWpRWAFxdi0uqfmFaUyMDEwAjEDkGRkAAEoHwA=)
+  last-modified (1592563317484)
+}

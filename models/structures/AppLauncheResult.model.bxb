@@ -1,0 +1,6 @@
+structure (AppLaunchResult) {
+  description (app-punch-out url)
+  property (url) {
+    type (Url)
+  }
+}

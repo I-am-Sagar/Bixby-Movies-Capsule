@@ -1,0 +1,11 @@
+action (DisambiguatePerson) {
+  description (Removes confusion about person being searched if any)
+  type (Search)
+  collect {
+    input (searchTerm) {
+      type (SearchTerm)
+      min (Required) max (One)
+    }
+  }
+  output (Person)
+} 

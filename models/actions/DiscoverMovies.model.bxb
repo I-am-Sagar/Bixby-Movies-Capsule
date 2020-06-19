@@ -1,0 +1,27 @@
+action (DiscoverMovies) {
+  description (Retrieve movie suggestions with different criteria)
+  type (Search)
+  collect {
+    input (searchTerm) {
+      type (SearchTerm)
+      min (Optional) max (One) 
+    }
+    computed-input (person) {
+      type (Person)
+      min (Optional) max (One)
+      compute {
+        if (exists(searchTerm)) {
+          intent {
+            goal: DisambiguatePerson
+            value: $expr(searchTerm)
+          }
+        }
+      }
+    }
+    input (genre) {
+      type (Genre)
+      min (Optional) max (One)
+    }
+  }
+  output (Movie)
+}

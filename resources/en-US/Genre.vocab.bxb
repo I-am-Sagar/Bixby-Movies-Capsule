@@ -1,0 +1,13 @@
+vocab (Genre) {
+  "action" {
+    fighting
+  }
+  "horror" {
+    terror,
+    scary
+  }
+  "comedy" {
+    humorous,
+    funny
+  }
+}

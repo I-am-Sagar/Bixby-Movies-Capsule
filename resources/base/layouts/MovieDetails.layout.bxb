@@ -1,0 +1,100 @@
+layout {
+  match: Movie (movie)
+  mode (Details)
+
+  content {
+    section {
+      content {
+        thumbnail-card {
+          title-area {
+            slot1{
+              text {
+                style (Title_S)
+                value ("#{value(movie.title)}")
+              }
+            }
+            slot2 {
+              if (exists(movie.movieInfo.director)) {
+                single-line {
+                  text {
+                    style (Detail_L)
+                    value ("#{value(movie.movieInfo.director)}")
+                  }
+                }
+              }
+              else {
+                single-line {
+                  text {
+                    value ("")
+                  }
+                }
+              }
+            }
+            slot3 {
+              if (exists(movie.year)) {
+                single-line {
+                  text {
+                    style (Detail_M_Soft)
+                    value ("#{value(movie.year)}")
+                  }
+                }
+              } else {
+                single-line { text ("") }
+              }
+            }
+          }
+          image-url {
+            template ("#{value(movie.image)}")
+          }
+          image-position (Start)
+        }
+      }
+    }
+    section {
+      content {
+        if (exists(movie.movieInfo.cast)){
+          paragraph {
+            style (Detail_M_Soft)
+            value ("#{value(movie.movieInfo.cast)}")
+          }
+        }
+      }
+    }
+    section {
+      content {
+        if (exists(movie.movieInfo.synopsis)){
+          paragraph {
+            style (Detail_M)
+            value ("#{value(movie.movieInfo.synopsis)}")
+          }
+        }
+      }
+    }
+    if (exists(movie.movieInfo.url)) { // We validate if exists an url  
+      section{
+        content{
+          //  Button link to IMDb film webpage
+          title-card{
+            title-area{ 
+              halign (Center)
+              slot1{
+                single-line{
+                  text{
+                    value ("#{value(movie.movieInfo.url)}")
+                    style (Detail_M_Soft)
+                  }
+                }
+              }
+            }
+            on-click{
+              intent{
+                goal: OpenWebsite
+                value-set: Movie { $expr(movie) }
+              }
+            }
+          }
+        } 
+      }
+    }
+  }
+}

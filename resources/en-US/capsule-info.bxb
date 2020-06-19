@@ -1,0 +1,10 @@
+capsule-info {
+  display-name (Movies)
+  dispatch-name (Movies)
+  developer-name (Sagar Udasi)
+  icon-asset (/images/icons/bixby_launcher.png)
+  description ("A simple capsule to find Movies.")
+  search-keywords {
+    keyword (Movies)
+  }
+}

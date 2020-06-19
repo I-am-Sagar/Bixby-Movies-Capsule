@@ -1,0 +1,5 @@
+train (t-miyzm0s69f1tw9cqemk0mh25z) {
+  utterance ("[g:playground.movies.DiscoverMovies] Find (Steven Spielberg)[v:SearchTerm] movies")
+  plan (Y2BmEC/ISaxML8ovzUvRy80vy0wt1vMFUQwKmBIumcXJ+WWpRWAFxQwymCqCUxOLkjNCUotyGZgYGIGYAUgyMoAAlA8A)
+  last-modified (1592563245164)
+}

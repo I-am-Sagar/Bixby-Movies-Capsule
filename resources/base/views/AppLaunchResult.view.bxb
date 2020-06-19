@@ -1,0 +1,12 @@
+result-view {
+  match: AppLaunchResult (this) 
+  message() // override empty string to avoid displaying default result dialog
+
+  app-launch {
+    payload-uri{
+      if(exists(this.url)){
+        template("#{value(this.url)}")
+      }
+    }
+  }
+}

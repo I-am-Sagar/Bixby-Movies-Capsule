@@ -1,0 +1,9 @@
+// API retrieves a string with the full cast, not a list of actors
+
+text (Cast) {
+  description (The cast of a film)
+  // property (actor) {
+  //   type (Actor)
+  //   min (Optional) max (Many)
+  // }
+}

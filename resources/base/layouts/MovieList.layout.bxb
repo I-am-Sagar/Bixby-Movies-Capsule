@@ -1,0 +1,34 @@
+layout-macro-def (MovieList) {
+  params {
+    param (this) {
+      type (Movie)
+      min (Required) max (One)
+    }
+  }
+  content {
+    cell-card {
+      slot1 {
+        image {
+         shape (Circle)
+         url ("#{value(this.image)}")
+        }
+      }
+      slot2 {
+        if (exists(this.title) && exists(this.year)) {
+          content {
+            order (PrimarySecondary)
+            primary ("#{value(this.title)}")
+            secondary ("#{value(this.year)}")
+          }
+        }
+        else {
+          content {
+            order (PrimarySecondary)
+            primary ("#{value(this.title)}")
+            secondary ("")
+          }
+        }
+      }
+    }
+  }
+}

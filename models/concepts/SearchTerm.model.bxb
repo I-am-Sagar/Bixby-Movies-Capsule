@@ -1,0 +1,3 @@
+text (SearchTerm) {
+  description (Keyword or keywords used to filter the movie search)
+}

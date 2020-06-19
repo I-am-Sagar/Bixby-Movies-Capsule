@@ -1,0 +1,19 @@
+structure (MovieInfo) {
+  description (Detailed info of the movie)
+  property (director) {
+    type (Name)
+    min (Optional) max (One)
+  }
+  property (cast) {
+    type (Cast)
+    min (Optional) max (One)
+  }
+  property (synopsis) {
+    type (Synopsis)
+    min (Optional) max (One)
+  }
+    property (url) {
+    type (Url)
+    min (Optional) max (One)
+  }
+}

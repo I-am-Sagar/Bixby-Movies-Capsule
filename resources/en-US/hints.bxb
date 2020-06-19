@@ -1,0 +1,8 @@
+hints {
+  uncategorized {
+    hint (In Movies, Find the Harry Potter Movies.)
+    hint (In Movies, what is the movie The Dark Knight about?)
+    hint (In Movies, in what year was the movie Smiles and Tears released?)
+    hint (In Movies, Tell me who directed the movie Star Wars.)
+  }
+}

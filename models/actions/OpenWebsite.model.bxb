@@ -1,0 +1,19 @@
+// This action redirects the user from Bixby to corresponding IMDB site in browser
+
+action (OpenWebsite) {
+  type(Constructor)
+  description (Open the website)
+  collect {
+    input (movieInfo) {
+      type (MovieInfo)
+      min (Required) max (One)
+    }
+  }
+  output (AppLaunchResult){
+    evaluate{
+      AppLaunchResult{
+        url: $expr(movieInfo.url)
+      }
+    }
+  }
+}

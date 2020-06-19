@@ -1,0 +1,15 @@
+action (SearchMovie) {
+  description (Search a movie in the database)
+  type (Search)
+  collect {
+    input (searchTerm) {
+      type (SearchTerm)
+      min (Required) max (Many)
+    }
+    input (info) {
+      type (Info)
+      min (Optional) max (One)
+    }
+  }
+  output (Movie)
+}

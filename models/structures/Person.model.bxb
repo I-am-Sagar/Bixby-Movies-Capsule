@@ -1,0 +1,23 @@
+structure (Person) {
+  description (A person in the database i.e. actor, director, producer, etc.)
+  property (id) {
+    type (ID)
+    min (Required) max (One)
+  }
+  property (name) {
+    type (Name)
+    min (Required) max (One)
+  }
+  property (job) {
+    type (Job)
+    min (Required) max(One)
+  }
+  property (image) {
+    type (Url)
+    min (Optional) max (One)
+  }
+  property (ftFilms) {
+    type (Title)
+    min (Optional) max (Many)
+  }
+}

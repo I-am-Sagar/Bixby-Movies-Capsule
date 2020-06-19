@@ -1,0 +1,17 @@
+input-view {
+  match: Person (this)
+
+  render {
+    if (size(this) > 1) {
+      selection-of (this) {
+        where-each (item) {
+          layout-macro (PeopleList) {
+            param (this) {
+              expression (item)
+            }
+          }
+        }
+      }
+    }
+  }
+}

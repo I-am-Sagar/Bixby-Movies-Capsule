@@ -1,0 +1,6 @@
+enum (Info) {
+  description (Some additional information about movie)
+  symbol (director)
+  symbol (year)
+  symbol (synopsis)
+}

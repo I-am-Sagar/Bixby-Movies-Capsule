@@ -1,0 +1,5 @@
+train (t-gvlf7d42697sqk0fldfpxk3m2) {
+  utterance ("[g:playground.movies.DiscoverMovies] Find movies of (Aamir Khan)[v:SearchTerm]")
+  plan (Y2BmEC/ISaxML8ovzUvRy80vy0wt1vMFUQwKmBIumcXJ+WWpRWAFxQwymCqCUxOLkjNCUotyGZgYGIGYAUgyMoAAlA8A)
+  last-modified (1592563372299)
+}

@@ -1,0 +1,11 @@
+action (GetMovieDetails) {
+  description (Calls for film details and retrieves data)
+  type (Fetch)
+  collect {
+    input (movie) {
+      type (Movie)
+      min (Required) max (One)
+    }
+  }
+  output (MovieInfo)
+}

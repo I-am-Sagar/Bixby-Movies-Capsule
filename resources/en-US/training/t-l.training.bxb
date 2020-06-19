@@ -1,0 +1,5 @@
+train (t-l4ara70io2u89drvvsmxnptjv) {
+  utterance ("[g:SearchMovie] Who directed the movie (The Shawshank Redemption)[v:SearchTerm]")
+  plan (Y2BmEC/ISaxML8ovzUvRy80vy0wt1vMFUQyymBLBqYlFyRkQaRlc0iGpRbkMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1592562668562)
+}

@@ -1,0 +1,28 @@
+structure (Movie) {
+  description (A movie in the database)
+  property (image) {
+    type (Url)
+    min (Required) max (One)
+  }
+  property (title) {
+    type (Title)
+    min (Required) max (One)
+  }
+  property (year) {
+    type (Year)
+    min (Optional) max (One)
+  }
+  property (id) {
+    type (ID)
+    min (Required) max (One)
+  }
+  property (movieInfo) {
+    type (MovieInfo)
+    min (Optional) max (One)
+    lazy-source (GetMovieDetails)
+  }
+  property (info) {
+    type (Info)
+    min (Optional) max (One)
+  }
+}

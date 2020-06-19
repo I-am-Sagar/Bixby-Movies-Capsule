@@ -1,0 +1,20 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (SearchMovie) {
+      accepted-inputs (searchTerm, info, $vivContext)
+      local-endpoint (SearchMovie.js)
+    }
+    action-endpoint (GetMovieDetails) {
+      accepted-inputs (movie, $vivContext)
+      local-endpoint (GetMovieDetails.js)
+    }
+    action-endpoint (DiscoverMovies) {
+      accepted-inputs (searchTerm, person, genre)
+      local-endpoint (DiscoverMovies.js)
+    }
+    action-endpoint (DisambiguatePerson) {
+      accepted-inputs (searchTerm)
+      local-endpoint (DisambiguatePerson.js)
+    }
+  }
+}
