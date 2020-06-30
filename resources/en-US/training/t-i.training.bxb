@@ -1,0 +1,5 @@
+train (t-i4qsxaypb4j0hgw09wmnhkgx2) {
+  utterance ("[g:DiscoverMovies] Search (comedy)[v:Genre:comedy] movies.")
+  plan (Y2BmEC/ISaxML8ovzUvRy80vy0wt1vMFUQwKmBIumcXJ+WWpRWAFxdi0uqfmFaUyMDEwAjEDkGRkAAEoHwA=)
+  last-modified (1593514628135)
+}
